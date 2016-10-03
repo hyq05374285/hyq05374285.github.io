@@ -5,7 +5,7 @@
     text-align: center;
 }
 .bbb{
-    background-color: #00aacc;
+    padding: 20px;
 }
 .ccc{
 background-color: #bbccdd;
@@ -13,5 +13,9 @@ height:81.5px;
 width:25%;
 }
 .qq{
-    background-color:#ddd
+    background-color:#ddd;
+}
+.yy
+{
+    padding: 10px;
 }
