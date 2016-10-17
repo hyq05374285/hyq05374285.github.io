@@ -1,5 +1,5 @@
 function test1()
 {
-console.log(5+6);
-
+console.log("hello")
+$("#output").text("hello");
 }
