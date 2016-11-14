@@ -30,10 +30,14 @@ $('#1').bind('click', function(){
     $('line').eq(3).attr('y2',370).attr('y1',300);
     $('line').eq(5).attr('x2',228).attr('y2',480);
     $('line').eq(6).attr('x2',8).attr('y2',480);
+    $('polygon').eq(0).attr('fill','red');
+    $('polygon').eq(1).attr('fill','red');
 })
 $('#2').bind('click', function(){
     $('line').eq(2).attr('y2',280).attr('y1',330);
     $('line').eq(3).attr('y2',280).attr('y1',330);
     $('line').eq(5).attr('x2',188).attr('y2',500);
     $('line').eq(6).attr('x2',48).attr('y2',500);
+    $('polygon').eq(0).attr('fill','white');
+    $('polygon').eq(1).attr('fill','white');
 })
