@@ -32,7 +32,7 @@ $('#1').bind('click', function(){
     $('line').eq(6).attr('x2',8).attr('y2',480);
     $('polygon').eq(0).attr('fill','red');
     $('polygon').eq(1).attr('fill','red');
-    $("svg").animate({right:'50px'});
+    $('svg').animate({left:'+=20px'});
 })
 $('#2').bind('click', function(){
     $('line').eq(2).attr('y2',280).attr('y1',330);
@@ -41,5 +41,5 @@ $('#2').bind('click', function(){
     $('line').eq(6).attr('x2',48).attr('y2',500);
     $('polygon').eq(0).attr('fill','white');
     $('polygon').eq(1).attr('fill','white');
-    $("svg").animate({left:'50px'});
+    $('svg').animate({left:'-=20px'});
 })
